@@ -1,0 +1,436 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>CS344</title>
+</head>
+<body>
+
+<p align=center><b>CS344 - 01:198:344 - Design and Analysis of Computer Algorithms (4 Cr.)</b></br>
+<b>Spring 2012</b></br>
+Professor Mario Szegedy </br>
+<hr>
+</br>
+
+<b>Lecture:</b> </br>
+MW	 6:40-8:00PM	 ARC-107	 Busch </br>
+</br>
+<b>Recitation Sessions:</b> </br>
+Section 01: M	 5:15-6:10PM	 HLL-005	 Busch </br>
+Section 02: W	 3:35-4:30PM	 HLL-005	 Busch </br>
+<b>No recitations during the first week</b></br>
+
+</br>
+
+<b>Instructors</b> </br>
+</br>
+<b>Instructor:</b></br>
+Professor Mario Szegedy
+<li><b>email:</b> szegedy@cs.rutgers.edu</li>
+<li><b>office:</b> Hill 446</li>
+<li><b>office hrs:</b> by appointment</li> 
+<li><b>phone #:</b> (732) 445-2001 ext 4184 </li>
+
+</br>
+<b>Teaching Assistants:</b> </br>
+</br>
+
+Tarek El-Gaaly
+	<li><b>website:</b> <a href="http://www.cs.rutgers.edu/~tgaaly
+">http://www.cs.rutgers.edu/~tgaaly</a></li>
+	<li><b>email:</b> tgaaly@cs.rutgers.edu</li> 
+	<li><b>office:</b> Center for Biomedicine Imaging & Modeling (CBIM)
+</br>
+Next to the Busch Campus Center. For directions, see: <a href="http://rumaps.rutgers.edu/?id=C71933">Map</a></br>
+My cubicle is the farthest one to the back on the left as you come in. 
+</li>	
+	<li><b>office hrs:</b> Wednesdays 3->4pm, Thursdays 3->4pm </li>
+	
+</br>
+Xiang Yu 
+	<li><b>website:</b> TBD</li>
+	<li><b>email:</b> xiangyu@cs.rutgers.edu</li> 
+	<li><b>office:</b> Center for Biomedicine Imaging & Modeling (CBIM)
+</br>
+Next to the Busch Campus Center. For directions, see: <a href="http://rumaps.rutgers.edu/?id=C71933">Map</a></br>
+My cubicle is the towards the left as you come in. 
+</li>	
+	<li><b>office hrs:</b> Monday 3->4pm, Tuesday 3->4pm</li>
+
+</br>
+<hr>
+<font color="red" size="5"><b>Announcements!</b></font></br>
+</br>
+
+<font color="red" size="4">
+In chronological order from oldest to most recent. Red announcements are new.
+</font>
+
+</br>
+</br>
+<font color="black" size="4">
+Starting with the next class the instructor will pass around an
+attendance record sheet in the first five minute of every class. The
+sheet will be used to ask questions from the students present.
+</font>
+</br>
+<br>
+<font color="black" size="4">Homework 1 Posted below</font>
+
+<br/></br>
+<font color="black" size="4">Fast Fourier: </br>
+I see I was a little quick with the FFT. As is, it would devastate you in the exam, so I will see what we can do. In any case, matrix operations, arithmetic complexiity (number of arithmetic operations) are a must to know. Try to catch up with them (you need them for one of the homeworks, anyway). We shall also hover over them (and FFT) in the next class before going on. Stay tuned. MS</font>
+</br>
+<br/>
+
+<br/>
+<font color="black" size="4">Study Guide by Chapter: </br>
+ 
+Chapter 0:  
+ 
+      All topics. Review again the homework exercises. Additional exercises:
+ </br>
+1. The left side is O, o, Omega, omega or theta of the right side?</br>
+      (log n)^(log n) vs  n^(log log n)</br>
+      3^(2n)   vs      2^(3n)</br>
+      n^10 * log n     vs     n^9 * (log n)^10</br>
+      n/log n     vs    sqrt(n) * log n</br>
+      3^(3^n)   vs    n^(n^3)</br>
+      sum_{1< i < n} i^3   vs    n^5 - 50n</br>
+     n choose sqrt(n)    vs     sqrt(n) factorial</br>
+2.
+     Is it true that if the average case complexity of a problem is O(n), then the worst case complexity is at most O(n^2)?</br>
+3.
+     Design a (deterministic) linear time algorithm for finding the third smallest element in an array</br>
+4.
+     Design an average case linear time algorithm for outputting an ordered list of the smallest n/logn elements of an array of length n</br>
+5. 
+    Create a problem and solve it :)</br>
+ </br>
+Chapter 1:</br>
+ 
+     All topics. Review again the homework exercises. Additional exercises:</br>
+ 
+1. 
+      Solve from the book:  1.6 - 1.18;   1.33 - 1.36;  1.38; 1.43; 1.44 is very cool. I had to think on it for three minutes.</br>
+   
+2. 
+     Determine x^100 modulo x+1. (polynomial modulus)
+ </br>
+3. 
+ 
+     Determine the gcd of x^100 and x^2 + 1.
+     Determine the gcd of x^100 + 1 and x^2 + 1.
+     Determine the gcd of x^200 + x^100 and x^2 + 1.
+ </br></br>
+Chapter 2:
+ </br>
+All topics except 2.61, 2.62, 2.63. The "FFT unraveled" part in the end is also left out. Review again the homework exercises. Additional exercises:
+ </br>
+1. 
+      Exercises 2.5, 2.14, 2.22, 2.23, 2.26 (help: reduce the multiplication problem to squaring), 2.28 (We have done this in class), 2.32
+ </br>
+2. 
+      Which has a bigger solution?  F(n) = 57 F(n/57) + O(n) or   F(n) = 157 F(n/157) + O(n) ?
+ </br>
+3. 
+      Let M be the n by n matrix that has 1s in the main diagonal and above, and zero below the main diagonal. How fast can you multiply M with an input vector v?
+ </br>
+ </br>
+Chapter 3: 
+ </br>
+   Up to section 3.2.3 (3.2.3 included). But no pre and post numbers (like in Figure 3.6). Exercises:
+ </br>
+1.
+      3.1 from book.</br>
+2. 
+      Give a graph whose DFS tree (no matter how you number the nodes) is a path.</font>
+</br>
+<br/>
+
+<font color="red" size="4">
+Notes on big-O versus little-o can be found under the slides section</br>
+Also, the practice exam and solutions can be found there too
+</font>
+</br></br>
+
+<font color="red" size="4">
+Slides
+<a href="/~tgaaly/cs344" title="slides" style="color:#000000">slides</a>
+</font>
+</br>
+</br>
+<font color="red" size="4">
+STUDY GUIDE FOR MIDTERM II
+</br>
+</br>
+I will clone the problems for Mid2 (foreseeably 4-6 problems) from the following list of problems in the book. The clones will not be identical twins of the problems in the book, but please bring your book to the exam, because there could be references to its pages. For your convenience I classified the problems according to the aspects along which I plan to clone them. Any problem in Mid2 will belong to the one of the following 11 categories:
+</br>
+I. Run a known algorithm on some given input instance and (possibly) answer simple questions about the instance or the algorithm. There will be at least one such problem on the exam (maybe two):
+</br> 
+3.2  3.3   3.4  4.1  4.2  5.1  5.2
+</br>
+II. Find the right algorithm (among the ones you have learned) for a problem, and give an explanation of how you want to apply it in the given situation:
+</br> 
+3.8
+</br>
+III. Prove some simple facts about graphs:
+</br> 
+3.6  5.4  5.10
+</br>
+IV. Solve a very simple task in linear (or nearly linear time).  For the solution you  do not necessarily need to apply any algorithm you have learned about:
+</br> 
+3.5  3.9  5.3
+</br> 
+V. [my favorite type] Design an algorithm for a problem, where the solution requires applying a known algorithm in clever ways, or it requires modifying a known algorithm. (sometimes both types of solution exist, sometimes only one):
+</br> 
+3.11  3.22  3.24  4.3  4.14  4.15  4.20  5.7
+</br> 
+VI. Make simple observations about known algorithms:
+</br> 
+3.12
+</br> 
+VII. Writing useful previsit(), postvisit() routines for explore/DFS
+</br> 
+3.25
+</br> 
+VIII. Understand equivalence relations
+</br> 
+3.29  3.31
+</br> 
+IX. Problems that require ingenuity
+</br> 
+3.23  4.5  4.7  4.11  4.17 
+</br> 
+X. Do modification of known algorithms work? Do they work on select illegal inputs? If not, why not.
+</br> 
+4.8  4.9
+</br> 
+Xi. Construct worst case input for known algorithms:
+</br> 
+5.12
+</br>
+
+</font>
+</br></br>
+
+<hr>
+<p align=center><b>Course Description </b> </p>
+<hr>
+
+<b>Textbook:</b> Sanjoy Dasgupta, Christos Papadimitriu, Umesh Vazirani:   Algorithms
+</br>
+Electronic version:</br>
+<a href="http://www.cs.berkeley.edu/~vazirani/algorithms.html
+">http://www.cs.berkeley.edu/~vazirani/algorithms.html
+</a>
+</br>
+</br>
+
+<b>Syllabus:</b></br>
+We go through the Dasgupta, Papapimitriou, Vazirani book chapter by
+chapter, leaving out the Linear Programming and quantum computing
+chapters. 
+</br>
+</br>
+
+<b>Grading:</b> </br>
+<li>Attendance and Participation        		20%</li>
+<li>Homework                                   		20%</li>
+<li>Mid1                                               	10%</li>
+<li>Mid2                                               	20%</li>
+<li>Final                                               30%</li>
+</br>
+
+<b>Grade Boundaries:</b></br>
+<li>A                                                      90% - 100%</li>
+<li>B+                                                      85%-89%</li>
+<li>B                                                       80%-84%</li>
+<li>C+                                                      75%-79%</li>
+<li>C                                                       65%-74%</li>
+
+</br>
+<b>Homework and Exams:</b></br>
+<li>Homework:                   One homework every week</li>
+<li>First Midterm:              Feb 27  or  Feb 29</li>
+<li>Second Midterm:             Apr 11   or   Apr 16</li>
+<li>Final:                   	(date is given by the administration)</li>
+
+</br>
+<hr>
+<p align=center><b>Homeworks</b></p>
+<hr>
+<li>Homework 1:        <font color="black" size="4"></br>
+problems: 01, 02, 04a, b from the book
+</br>
+due date: Thursday, January 26 @ 12pm
+</font></li>
+
+</br>
+<li>Homework 2:        <font color="black" size="4"></br>
+problems: Book:  1.18, 1.20, 1.26 
+</br>
+due date: Thursday, Feb 2nd @ 12pm
+</font></li>
+</br>
+<li>Homework 3:       </br>
+problems: 
+
+Two of the three homework exercises are from the book:
+
+1.19 (Fibonacci)
+
+1.28 (RSA)
+</br>
+The third exercise is related to the Extended Euclidean Algorithm for polynomials:
+</br>
+Show that two polynomials, P and Q the gcd of P(x^3) and Q(x^3) is also a polynomial of x^3, i.e. of the form R(x^3).
+</br>
+Warm up question 1: For P = x^2 + x + 1 what is P(x^3)?
+</br>
+Warm up question 2:  What is the  gcd of x^6 - 1 and x^9 - 1?
+</br>
+due date: Thursday, Feb 9th @ 12pm
+</font></li>
+</br>
+<li> <font color="black" size="4">Homework 4
+</br>
+1. Book, 1.31</br>
+2. Book, 2.19</br>
+3. Compute and argue which is bigger (T(n) or G(n)):</br>
+T(n) = 6T(n/2) + n^2<br/>
+G(n) = 9T(n/3) + sqrt(n^5)</br>
+show your work.
+</br>
+due Feb 16th @ noon
+</li>
+
+</br>
+<li> <font color="black" size="4">Homework 5
+</br>
+1. Book, 2.7</br>
+2. Book, 2.11</br>
+3. Book, 2.15</br>
+due Feb 23rd @ noon
+</li>
+
+</br>
+<li> <font color="black" size="4">Homework 6
+</br>
+Exercises 3.3 and 3.4 from the book.</br>
+Due date: March 22nd @ 11:55pm. </br>
+In the Monday lecture we will cover the strongly connected component algorithm
+</li>
+
+</br>
+<li><font color="black" size="4">
+Homework 7 (re-post)</br>
+
+1. Let G be a directed graph on n nodes. Assume that its meta-graph has
+k edges, and its number of strongly connected components with size 1 is
+s. Prove that that G must have at least n+k-s edges.
+</br>
+(n is the number of nodes and k is the number of edges in the
+meta-graph)
+</br>
+</br>
+2. Solve 3.22 from the book. Give a sample run of your algorithm on the
+graph drawn for exercise 3.25 (you do not need the rest of the exercise
+itself, only the picture of the graph).
+<br/>
+due date: Thursday, March 29th @11:55pm 
+</li>
+
+</br>
+<li><font color="black" size="4">
+Homework 8</br>
+1. Let G be a DAG. Assume that we topologically sort the nodes of G, and then relabel them accordingly (thus the node that is first in the topological order gets label 1, the next gets label 2,etc., and the last gets label n).</br>
+Let P be a directed path in G. Prove or disprove the following statement: If we run the BFS on G using these new labels, then the BFS will discover the edges of P in the order in which the occur in P 
+(that is, the BFS will discovers the first edge of P before discovering any other edge of P, etc.)
+</br> </br>
+2. What if we replace BFS with DFS in the above problem (keeping the rest the same)?
+</br></br>
+due date: Thursday, April 5th @11:55pm 
+</li>
+
+</br>
+<li><font color="black" size="4">
+Homework 9</br>
+1. The homework for the next week is exercise 5.1 (a) (b) (c) from the book, and in addition:
+</br></br>
+
+2. Construct the minimum weight spanning tree (and compute its total cost) of the graph to exercise 5.1 when the weights are modified as follows:
+</br>
+
+    a.)  the weights are the squares of the weights given by the book (3 -> 9, etc.)
+
+</br>
+
+    b.) the weights are negatives of the weights given by the book   (3 -> -3, etc.)
+
+</br></br>
+
+3. Which two of the three trees you have constructed (when you disregard the weights) are identical and why?
+
+</br></br>
+ 
+
+Definition: total cost = sum of the weights on the edges of the spanning tree.
+
+</br></br>
+due date: Thursday, April 12th @11:55pm 
+</li>
+
+
+
+</br>
+<li><font color="red" size="4">
+Homework 10</br></br>
+In a linguistic conference Dr Joseph Smith has recommended a measure for the distance between two words, v and w, as follows:
+  
+
+</br></br>
+We associate a cost measure to any letter-alteration as folows:
+  
+
+</br></br>
+If a vowel is deleted, it costs 3    (boat -> bat)</br>
+If a vowel is inserted, it costs 3      (hill -> hilal)</br>
+If a vowel is changed to another vowel, it costs 2    (hot -> hit)</br>
+If a consonant  is deleted, it costs 2      (trace -> race)</br>
+If a consonant  is inserted, it costs 2     (rain -> ratin)</br>
+If a consonant is changed to another consonant, it costs 1     (shore -> snore)</br>
+(a consonant cannot be changed to a vowel or vice versa)
+  
+
+</br></br>
+Any word can be changed into any other by performing a sequence of alterations, where every alteration comes from the above list.
+  
+
+</br></br>
+The total cost of an alteration-sequence is the sum of the costs of the individual alterations in the sequence.The distance between v and w is minimum total cost that incurs when we alter v to w, 
+  
+
+</br></br>
+(trace -> race -> bace -> bac -> bat ) costs 2+ 1 + 3 + 1=7. Can you do it cheaper? (no)  The distance between "trace" and  "bat" is 7.
+  
+
+</br></br>
+Design a dynamic programming algorithm for Dr J.S. that takes v and w as it input, and computes the distance between the two words.
+ 
+
+</br></br>
+
+
+</br></br>
+due date: Thursday April, 26th @11:55pm
+</li>
+
+
+
+
+...
+
+</br>
+</body>
+</html>

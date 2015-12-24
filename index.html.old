@@ -1,0 +1,321 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Tarek El-Gaaly</title>
+<link rel="stylesheet" href="styles.css" type="text/css" />
+</head>
+<body>
+<div id="wrap">
+<div id="container">
+
+	<div id="header">
+		<h1><a href="/">Tarek El-Gaaly</a></h1>
+		<h2>Rutgers University Computer Science PhD Student</h2>
+	</div>
+	<div id="nav">
+		<ul>
+			<li><a href="index.html" class="selected" title="home page">Home</a></li>
+			<li><a href="http://www.tgaaly.blogspot.com" title="Personal Blog">Personal Blog</a></li>
+
+			<li><a href="interests.html" title="interesting">INTERESTING STUFF!</a></li>			
+			<li><a href="gallery.html" title="Gallery">Gallery</a></li>
+		</ul>
+		<br class="clear" />
+
+
+	</div>
+	<div id="content">
+		<div class="top-panel">
+		<div>
+			<!--<h3>Research Interests</h3>
+			<p><br /><br />
+			
+					a href="#" class="linkleft">A left link</a> &bull;
+					<a href="#">A right link</a>
+			</p>-->
+		</div></div>
+		<div class="page-wrap">
+			<div class="page">
+				
+			<!-- begin main content -->
+
+				
+				<p></p>
+
+<h4>Current Projects</h4>
+				<p></p>
+				<ul>
+
+<li>Autonomous Airboat Obstacle Avoidance at Carnegie Mellon University - Robotics Institute (Field Robotics Center) <a href="http://code.google.com/p/crw-cmu/" style="color:#800000">(CMU Cooperative Robotic Watercraft)</a>
+</li>
+				
+<iframe width="420" height="315" src="http://www.youtube.com/embed/sVeYu3NA8KM" frameborder="0" allowfullscreen></iframe>
+				
+				<li>RGBD Object Classification</li>
+
+</ul>
+	
+			
+				
+				<h4>Past Projects</h4>
+				<p></p>
+				<ul>
+
+
+<li><b>RGBD Table-top Object Pose Recognition</b>
+				</br>
+				
+<img src="rgbd12.jpg" width="420" height="260" />
+				
+<img src="rgbd2.jpg" width="480" height="170" />
+</br>
+
+				The red annotations above are the ground-truth pose angles (i.e. azimuth/yaw) of the tabletop objects 
+				(from the RGBD-dataset - University of Washington). Blue annotations signify the estimated pose based on visual local feature information alone. Green annotations represent the final recognized pose using both visual and depth information [Refer to ICPR 2012 paper below].
+
+</li>
+
+
+					
+				
+				<li><b>Autonomous indoor robot navigation and obstacle avoidance (using Kinect)</b></li>
+				
+				
+
+				<iframe width="420" height="315" src="http://www.youtube.com/embed/uk3tunOTgc0?rel=0" frameborder="0" allowfullscreen></iframe>
+				
+</br>
+				
+
+<li><b>Experiments in Collaborative Robotics</b>
+				</li>
+
+				<ul><li>A drone (micro-UAV) taking off, tracking and landing on a ground-robot (shown below).</li>
+				<li>Central Control of multiple AR.Drone quadrocopters (<a href="http://ardrone.parrot.com/parrot-ar-drone/usa/" style="color:#800000">AR.Drone</a>)</li></ul>
+				
+				
+
+<iframe width="420" height="315" src="http://www.youtube.com/embed/NagzIlGWXek?rel=0" frameborder="0" allowfullscreen></iframe>
+				<p></p></br>
+<li><b>Recognizing human activity in video surveillance</b></li> 
+					
+				
+				<li><b>MSc in Computer Science Thesis:</b></br>
+				<ul><li>Measuring atmospheric scattering from sequences of digital images</li>
+				<li>Image/Scene dehazing (images shown below)</li>
+				<li>A framework for particulate matter measurement from atmospheric scattering</li> 
+				</ul>
+				
+<img src="pollution_spectrum.png" width="540" height="140" /><br/>
+<!--<img src="dehazing.png" width="280" height="140" />-->
+<img src="pol_dc_co_comparison.png" width="420" height="140" /><br/>
+				
+<p>The first figure shows a sequence of images of a hazy scene. The second figure shows the scene resulting from state-of-the-art dehazing and our dehazing algorithm. The last figure shows a comparison with 2 other techniques for dehazing: polarization dehazing and dark channel dehazing. Our dehazing method recovers the hue of the scene and also returns a natural looking sky without any extra processing (see rightmost image of the second figure). Refer to VISAPP 2010 paper below. </p>
+
+				
+				</br><p>For a full description of my MSc Thesis - refer to the thesis document:  <a href="Tarek El-Gaaly - Final Thesis Document.pdf" style="color:#800000">[pdf]</a>
+</p>
+				</ul>
+
+				
+				
+				<h4>Publications</h4>
+				<p></p>
+				<ul>
+				
+				<li>Multi-Modal RGBD Research for Object Recognition and Robotic Object Manipulation</li>
+				<ul>
+				<li><b>Tarek El-Gaaly</b>, Haopeng Zhang, Marwan Torki, Ahmed Elgammal, Maneesh Singh and Zhiguo Jiang 
+				<b><u>Multi-Modal RGBD Sensors for Object Recognition</u></b>, Special Session on RGBD Applications, Asian Conference on Computer Vision, ACCV 2012
+</li>
+				
+				<li><b>Tarek El-Gaaly</b>, Marwan Torki, Ahmed Elgammal, Maneesh Singh, 
+				<b><u>Multi-Modal RGBD Sensors for Object Grasping and Manipulation</u></b>, Workshop: "Beyond Grasping: Modern Approaches for Dextrous Manipulation", 
+				 Intelligent Robots and Systems, IROS 2012
+</li>
+				
+				<li><b>Tarek El-Gaaly</b>, Marwan Torki, Ahmed Elgammal, Maneesh Singh, <b><u>RGBD Object Pose Recognition using Local-Global
+				Multi-Kernel Regression</u></b>, International Conference on Pattern Recognition, ICPR 2012 <a href="icpr_paper.pdf" style="color:#800000">[pdf]</a>
+</li>
+				</ul>
+				
+				<li>Space Exploration</li>	
+				<ul>	
+				<li><b>Tarek El-Gaaly</b>, Brian McMahan, Ali Elqursh, <b><u>Multi-Segment Zeppelin-Aided Robotic Rover for Ground-Based and Atmospheric Exploration</u></b>
+				, Print-only presentation at Concepts and Approaches for Mars Exploration 2012 <a href="http://adsabs.harvard.edu/abs/2012LPICo1679.4278E" style="color:#800000">
+				[LINK: The Smithsonian/NASA Astrophysics Data System]</a>
+</li>
+				</ul>
+				
+				<li>Human-Computer Interaction</li>
+				<ul>
+				<li>Ben Falchuk, Chung-Ying Wu, <b>Tarek El-Gaaly</b> and Akshay Vashist, <b><u>Skimming Video Action Using Annotated 3D Surfaces</u></b>, Eurographics 2011 <a href="abstract_skimming.pdf" style="color:#800000">[abstract - pdf]</a>
+</li>
+				</ul>
+			
+				<li>Atmospheric Monitoring from Images</li>	
+				<ul>
+				<li><b>Tarek El-Gaaly</b> and Joshua Gluckman, <b><u>Measuring Atmospheric Scattering from Digital Image Sequences</u></b>, International Conference on Computer Vision Theory and Applications, Oral Presentation @ VISAPP 2010 <a href="visapp_paper.pdf" style="color:#800000">[pdf]</a>
+</li>				
+				</ul>
+				
+				</ul>
+				<h4>Posters & Presentations</h4>
+				<p></p>
+				<ul>
+				
+				<li><b><u>RGBD Object Pose Recognition</u></b> poster @ 2nd Multimedia and Vision Meeting in the Greater New York Area, June 15th, 2012 <a href="http://www.gnymv.org/" style="color:#800000">www.gnymv.org</a></li>
+			
+	<li><b><u>RGBD Object Pose Recognition</u></b> poster @ 6th IGERT Annual Perceptual Science Forum, May 7th, 2012 <a href="http://perceptualscience.rutgers.edu/?title=here" style="color:#800000">IGERT PerSci Forum</a></li>
+
+
+		
+					
+	
+				
+			</ul>
+
+
+				
+				
+				
+			<h4>Funds/Grants</h4>
+			<p></p>
+			<ul>
+				<li>Collaboration and partial funding from Siemens Corporate Research</li>
+				<li>Rutgers faculty seed funding - for multiple UAV vision research</li> 		
+			</ul>
+				
+				<h4>Research Interests</h4>
+				<p></p>
+				<ul>
+					<li>Robotic Vision</li>
+	
+					<li>Space Exploration</li>
+					<li>Robotics</li>
+					<li>Space Robotics</li>							
+					<li>Computer Vision</li>
+					
+					<li>Machine Learning</li>
+					<li>Artificial Intelligence</li>
+					<li>Swarm Intelligence and Biologically inspired computing</li>
+				</ul>
+				
+				
+				
+<h4>Teaching</h4>
+			
+				<p></p>
+				<ul>
+				
+<li><a href="cs344.html" title="SPRING 2012: CS344 - Design & Analysis of Computer Algorithms" style="color:#000000">SPRING 2012: CS344 - Design & Analysis of Computer Algorithms</a></li>
+				
+<li>FALL 2011: CS205 - Discrete Structures</li>
+
+				<li>SPRING 2011: CS334 - Digital imaging and Multimedia</li>
+				<li>FALL 2010: CS440 - Intro to Artificial Intelligence</li>
+				
+<li>FALL/SPRING 2009-2010: CS110 - Intro to Computers and Applications</li>
+
+
+					
+				</ul>
+				
+			<!-- end main content -->
+				
+			</div>
+			
+			
+			<div class="sidebar">
+<h4>About Me</h4>
+				<p></p>
+				<ul>
+					<p>I am a third year grad student @ Rutgers University. I've come all the way from the land of the Pharaohs, the sacred sun and the never ending seas of golden sand - Egypt. There I did my undergraduate and masters degrees in computer science at the American University in Cairo.
+</br>
+</br>
+
+					<a href="http://twitter.com/#!/spaceanubis" style="color:#0000FF">Twitter: @SpaceAnubis</a>
+</br>
+</p>
+					<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 4,
+  interval: 30000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#333333',
+      color: '#ffffff'
+    },
+    tweets: {
+      background: '#000000',
+      color: '#ffffff',
+      links: '#4aed05'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('SpaceAnubis').start();
+</script>
+				</ul>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+
+				<!--<img border="1" src="images/prof23.png" align="middle" alt="Me" width="160" height="220" />-->	
+
+<p></p>
+<br/>
+
+<h4>Contact</h4>
+				<ul>
+					<li><b>Email:</b> tgaaly "at" cs "dot" rutgers "dot" edu</li>
+					<li><b>Office:</b> Center for Biomedicine Imaging & Modeling (CBIM), Busch Campus, Rutgers University</li>
+				</ul>
+<p></p>
+<br/>
+
+				<h4>Linx</h4>
+				<ul>
+					<li><a href="http://www.tgaaly.blogspot.com" title="Personal Blog">Personal Blog</a></li>
+					<li><a href="http://www.cbim.rutgers.edu/" title="CBIM">CBIM</a></li>
+					<li><a href="http://www.cs.rutgers.edu" title="Rutgers CS Dept">Rutgers CS Dept</a></li>
+					<li><a href="http://iris.usc.edu/Information/Iris-Conferences.html" title="Computer Image Analysis, Computer Vision Conferences">Computer Image Analysis, Computer Vision Conferences</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Computer_vision" title="Computer Vision">Computer Vision</a></li>
+<li><a href="http://www.vision.ee.ethz.ch/" title="">ETH Zurich - Computer Vision Lab</a></li>
+<li><a href="http://www.robots.ox.ac.uk/~vgg/index.html" title="">Oxford University Visual Geometry Group</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Swarm_intelligence" title="Swarm Intelligence">Swarm Intelligence</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Bees_algorithm" title="Bees algorithm">Bees algorithm</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Particle_swarm_optimization" title="PSO">PSO</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Ant_colony_optimization" title="Ant Colony Optimization">Ant Colony Optimization</a></li>
+<li><a href="http://en.wikipedia.org/wiki/Cultural_algorithms" title="Cultural Algorithms">Cultural Algorithms</a></li>
+<li><a href="http://www.nasa.gov/" title="NASA">NASA</a></li>
+
+
+				</ul>
+
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="footer">
+		<br/>
+		<!--<p>&copy; 2009 mySite. Design: <a href="http://www.spyka.net">spyka webmaster</a> | <a href="http://www.justfreetemplates.com">Free Web Templates</a></p>-->
+	</div>
+
+</div>
+</div>
+
+</body>
+</html>

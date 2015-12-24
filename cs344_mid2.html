@@ -1,0 +1,47 @@
+Solve the first 4, and 2 out of the last 3. The deadline is Wed, 3PM. A submission site is set up by Tarek on sakai. Let us know if you have questions.  Good luck. 
+
+</br>
+</br>
+
+ 
+1. (10pt) Run Dijkstra on the instance of problem 4.2 of the book, where all weights are taken in absolute value.
+
+</br>
+ 
+</br>
+
+2. (16pt) You all have seen a chess board.  If not, it is a board with 8x8 = 64 squares. Each square has a name, which is a combination of a letter and a number, such as D4. The letters range from A to H (from left to right) and the numbers range from 1 to 9 (from the bottom to top), naming the columns and rows in order, from the white player's point of view. Assume that originally you have a knight on B1. Of course, you know how a knight moves, but if not, please take a look at http://www.thechessstore.com/category/rulesofchess/. Your task is to compute for each square of the board, the number of moves that takes for knight to get there from B1. Which algorithm will you run? Run it (do the computation by hand or do it by computer). Draw a picture, if necessary.
+
+</br> 
+</br>
+
+3. (9pt) Find out if the left hand side little o, little omega, or theta of the right hand side:
+</br>
+</br>
+
+ 
+logSTAR(2^(2^n))  vs.  logSTAR(n)
+</br>
+logSTAR(2^(2^n))  vs. </t> (logSTAR(n))^2
+</br>
+log (logSTAR(n))  vs.    logSTAR(log n)
+</br>
+</br>
+ 
+4. (15pt) Let G be an undirected graph, v: E->R and w: E->R be two weight functions on the edges of G. Let z: E->R be defined as the sum of v and w, i.e. for every edge e of G z(e)=v(e) + w(e). Let V, W, and Z be the total weights of the minimum weight spanning trees of G with respect to weight functions v, w and z, respectively. Prove or disprove: Z >= V+W.
+</br>
+</br>
+ 
+ 
+5. (25pt) Joe travels, and there is map in front of him. The cities are represented on the map as nodes of a directed graph. Furthermore, directed edges between the cities represent possible transfers.  A label on each edge indicates the travel time along that edge. But transportation is not available at all times. You can leave a city only in the daylight hours, which is from 6AM to 6PM. The different cities also lie in different time zones, and the time zone of each city is also given on the map. Design an algorithm for Joe to find the quickest way from city A to city B, when he leaves A at noon.
+</br>
+</br>
+
+ 
+6. (25pt) We know that Bellman-Ford does O(nm) updates on general directed graphs, but a version of it on DAGs it takes only O(m) updates. There is a continuum of graphs between DAGs and general directed graphs. This continuum is captured by the parameter r, that denotes the size of the largest strongly connected component in G. When G is a DAG, then r=1, and for general graphs r can be as large as n. Design a Bellman-Ford type algorithm that takes as its input an arbitrary directed graph G with edge-weights and without negative cycles ,and a starting node s, figures out parameter r (and whatever else it needs to figure out) and outputs an array dist() of length n, that contains the shortest distances of all nodes from s. The crucial thing is, it should do all of this in time O(rm), whatever r=r(G) is.
+ 
+</br>
+</br>
+ 
+ 
+7. (25pt) Exercise 4.11 asks for finding the shortest cycle in a graph whose edges have (possibly) different lengths. I am asking you to solve a simpler task, but your running time should be better. Your input is an undirected graph G. Find out the length of the shortest cycle, when all edges have length one, in time O(nm).
